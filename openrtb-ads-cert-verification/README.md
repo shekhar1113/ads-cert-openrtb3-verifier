@@ -86,6 +86,7 @@ Aditionally, a sampling percentage can be provided during instantiation to contr
 For instance, sampling percentage of 30 means that verification would be run for 30% of the requests, and for the remaining 70%, service.verifyRequest will return true without running any kind of verification.
 Please note that the default value of sampling percentage is 100, which means that all requests will be verified.
 
+For cases where a different sampling percentage might be required for a part of traffic, another VerificationService object can be created with the required sampling percentage.
 ```java
 // Sampling Percentage is 30. This means that verification would be run for only 30% of the requests!
 int samplingPercentage = 30; 
