@@ -26,26 +26,6 @@ To allow for fast-track on-boarding for ads.cert, media.net is offering the veri
  - Reporting hooks
  - In-memory caching to minimize latencies
 
-## Build Notes
-
-
-We are already in the process of registering the library as maven repository. Until then, the below can be used
-for openrtb-ads-cert-verification module:
-
-- In your project's pom, add the following dependency:
-
-```java
-<dependency>
-   <groupId>net.media.adscert</groupId>
-   <artifactId>openrtb-ads-cert-verification</artifactId>
-   <version>1.0-SNAPSHOT</version>
-</dependency>
-```
-
-- Now all you need is to have its jar in your local maven repo 
-- Clone the ads-cert-openrtb3-verifier project (https://github.com/media-net/ads-cert-openrtb3-verifier)
-- Build it using maven on your system - "mvn clean install"
-- This will automatically add the jar to your local maven repo
 
 ## Usage Guidelines
 
